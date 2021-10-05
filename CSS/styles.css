@@ -4,10 +4,10 @@ body {
 }
 #logo {
     float: left;
-    background-image: url("../Images/Recks_Techs_logo_300x80.png");
+    background-image: url("../images/logo-09_320x104.png");
     background-repeat: no-repeat;
-    width: 300px;
-    height: 80px;
+    width: 320px;
+    height: 104px;
 }
 .nav-item  {
     color: white;
@@ -16,11 +16,44 @@ body {
     color: rgb(77, 165, 211);
 }
 .nav-link {
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
 }
+#carouselExampleIndicators {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+#informationBox {
+    margin-bottom: 20px;
+}
+#informationBox ul {
+    margin-top: 20px;
+}
+#awards {
+    height: 250px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+#awards li {
+    font-size: 1.5em;
+}
+#map {
+    height: 250px;
+    border: 2px solid red;
+}
 footer {
-    background-color: black;
-    width: 100%;
-    height: 100px;
+    background-color: rgb(36,36,50);
+}
+.footerContent {
+    color: white;
+    margin-top: 10px;
+}
+#power {
+    text-align: center;
+}
+@media (min-width: 991px) {
+    hr {
+        display: none;
+    }
 }
