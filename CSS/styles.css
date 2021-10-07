@@ -9,7 +9,7 @@ a {
 /* header */
 #logo {
     float: left;
-    background-image: url("../images/logo-09_320x104.png");
+    background-image: url("../Images/logo-09_320x104.png");
     background-repeat: no-repeat;
     width: 320px;
     height: 104px;
@@ -85,7 +85,7 @@ footer {
 }
 
 #productIntro {
-    background-image: url("../images/neonbrand-I6wCDYW6ij8-unsplash_1500x1863.jpg");
+    background-image: url("../Images/neonbrand-I6wCDYW6ij8-unsplash_1500x1863.jpg");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
