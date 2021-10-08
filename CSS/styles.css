@@ -1,0 +1,152 @@
+body {
+    background-color: #ddd;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+/********** index **********/
+/* header */
+#logo {
+    float: left;
+    background-image: url("../Images/logo-09_320x104.png");
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 104px;
+}
+.nav-item  {
+    color: white;
+}
+.nav-item:hover, .nav-item:active {
+    color: rgb(77, 165, 211);
+}
+.nav-link {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* picture slides */
+#carouselExampleIndicators {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+/* information & map */
+#informationBox {
+    margin-bottom: 20px;
+}
+#informationBox ul {
+    margin-top: 20px;
+}
+#awards {
+    height: 250px;
+    border: 1px solid navy;
+    background-color: white;
+    margin-bottom: 20px;
+    overflow: scroll;
+    box-shadow: 0 10px 15px #888888;
+}
+#awards li {
+    font-size: 1.2em;
+}
+#map {
+    height: 250px;
+    border: 1px solid navy;
+    box-shadow: 0 10px 15px #888888;
+}
+
+/* footer */
+footer {
+    background-color: rgb(36,36,50);
+}
+.footerContent {
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 1.5;
+}
+.footerContentTitle {
+    font-size: 1.3em;
+}
+.footerLinks {
+    margin-left: 10px;
+}
+#footerLinkFB, #footerLinkIN {
+    margin-top: 12px;
+}
+#footerLinkIG, #footerLinkLine {
+    margin-left: -3px;
+}
+#power {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/********** products **********/
+/* breadcrumb */
+.breadcrumb-item {
+    font-size: 1.2em;
+}
+.largePic {
+    width: 100%;
+}
+#productDescription {
+    font-size: 1.4em;
+    text-align: justify;
+}
+#productShopping {
+    width: 145px;
+    background-color: rgb(220,90,60);
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+#productShopping a {
+    color: white;
+}
+#productShopping a:hover {
+    color: black;
+}
+
+/********** about **********/
+/* card */
+.card {
+    border: 0;
+    margin-bottom: 20px;
+    background-color: #ddd;
+}
+.col-lg-4 .cardContent {
+    border: 1px solid green;
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 0 10px 15px #888888;
+}
+.cardName {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cardPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+}
+
+/********** responsive settings **********/
+@media (min-width: 992px) {
+    .nav-item hr {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .footerContent hr {
+        display: none;
+    }
+}
